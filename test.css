@@ -1,0 +1,295 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.boxcenter{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header img{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+li{
+    list-style: none;
+}
+ul li {
+    display: inline;
+}
+a{
+    text-decoration: none;
+    line-height: 50px;
+  
+    color: blue;
+    text-align: center;
+    margin-right: 50px;
+}
+ul li a:hover{
+    color:crimson;
+    text-decoration: underline;
+}
+article{
+
+    margin-top: 50px;
+    width: calc(80% - 8px);
+    min-width: 810px;
+    float: left;
+   
+}
+article img{
+    width: 100%;
+    height: 150px;
+}
+article p{
+    font-weight: bold;
+    color: blue;
+    margin-left: 18px;
+}
+
+article p a{
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 0;
+}
+article p a:hover{
+    color: red;
+    text-decoration: underline;
+}
+h6{
+    color: brown;
+    font-size: 15px;
+    margin-left: 14px;
+}
+.login{
+    right: 0;
+    margin-left: 500px;
+}
+.box1{
+    float: left;
+    width: 30%;
+    
+    height: 350px;
+    font-size: 16px;
+}
+.box2{
+    float: left;
+    width: 30%;
+    
+    height: 350px;
+    margin-left: 8px;
+}
+.box3{
+    float: left;
+    width: 30%;
+    
+    height: 350px;
+    margin-left: 8px;
+}
+.box4{
+    float: left;
+    width: 30%;
+    
+    min-height: 260px;
+    margin-top: 8px;
+}
+.box5{
+    float: left;
+    width: 30%;
+    
+    height: 260px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.box6{
+    float: left;
+    width: 30%;
+    height: 260px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.box7{
+    float: left;
+    width: 30%;
+    height: 260px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.box8{
+    float: left;
+    width: 30%;
+    height: 260px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.box9{
+    float: left;
+    width: 30%;
+    height: 260px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+aside{
+    width: 20%;
+    min-height: 810px;
+    float: right;
+    margin-top: 50px;
+}
+aside p{
+    font-weight: bold;
+    color: blue;
+    margin-left: 18px;
+    margin-top: 0;
+}
+
+aside p a{
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 0;
+}
+aside p a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.box10{
+    float: left;
+    width: 80%;
+    height: 100px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+.box11{
+    float: left;
+    width: 80%;
+    height: 100px;
+    margin-top: 220px;
+    margin-right: 8px;
+}
+aside img{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+.footer{
+    bottom: 0;
+    right: 0;
+    left: 0;
+    line-height: 0;
+    background: #111;
+    width: 98%;
+    padding-top: 10px;
+    color: #fff;
+    clear: both;
+}
+.footer-content{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+/* gắn icon */
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+/* tạo khung chứa menu footer */
+.footer-bottom{
+    background: #000;
+    width: 78%;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+.footer-bottom p a{
+   color:#44bae8;
+   font-size: 16px;
+   text-decoration: none;
+ }
+.footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ }
+/* tạo menu trong footer */
+.footer-menu{
+    float: right;
+  }
+  
+.footer-menu ul{
+    display: flex;
+  }
+  
+.footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+.footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  
+.footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+@media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+}
